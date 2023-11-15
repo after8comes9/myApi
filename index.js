@@ -5,6 +5,7 @@ const app = express();
 
 app.use(express.json());
 
+const apiKey = '1234';
 const users = [];
 
 app.get('/', (req, res) => {
